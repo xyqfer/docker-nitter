@@ -1,6 +1,6 @@
 FROM nimlang/nim:alpine as build
 
-ARG  REPO=https://github.com/zedeus/nitter.git
+ARG  REPO=https://github.com/xyqfer/nitter.git
 
 RUN apk update \
 &&  apk add libsass-dev \
